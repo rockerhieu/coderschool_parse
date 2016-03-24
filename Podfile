@@ -4,7 +4,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'Lab3' do
-	pod ‘Parse’
-
+    pod 'Parse'
+    pod 'NSDate+TimeAgo'
 end
 

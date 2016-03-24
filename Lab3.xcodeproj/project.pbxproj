@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4258DD42B15E44F1ED3CE2B9 /* Pods_Lab3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C21642A90BC18007860768D /* Pods_Lab3.framework */; };
 		B8B9E4661CA2C3BD00E9BBAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B9E4651CA2C3BD00E9BBAB /* LoginViewController.swift */; };
+		B8B9E4691CA2C97D00E9BBAB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B9E4681CA2C97D00E9BBAB /* ChatViewController.swift */; };
+		B8B9E46C1CA2CCA300E9BBAB /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B9E46B1CA2CCA300E9BBAB /* MessageCell.swift */; };
 		D892D3AB1CA2C1B2006FB331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892D3AA1CA2C1B2006FB331 /* AppDelegate.swift */; };
 		D892D3B01CA2C1B2006FB331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D892D3AE1CA2C1B2006FB331 /* Main.storyboard */; };
 		D892D3B21CA2C1B2006FB331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D892D3B11CA2C1B2006FB331 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 		5C21642A90BC18007860768D /* Pods_Lab3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7209E8901FEA3FA21B541D8 /* Pods-Lab3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lab3/Pods-Lab3.release.xcconfig"; sourceTree = "<group>"; };
 		B8B9E4651CA2C3BD00E9BBAB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B8B9E4681CA2C97D00E9BBAB /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B8B9E46B1CA2CCA300E9BBAB /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		D892D3A71CA2C1B1006FB331 /* Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D892D3AA1CA2C1B2006FB331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D892D3AF1CA2C1B2006FB331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,8 +56,17 @@
 			isa = PBXGroup;
 			children = (
 				B8B9E4651CA2C3BD00E9BBAB /* LoginViewController.swift */,
+				B8B9E4681CA2C97D00E9BBAB /* ChatViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B8B9E46A1CA2CC9300E9BBAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8B9E46B1CA2CCA300E9BBAB /* MessageCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		D892D39E1CA2C1B1006FB331 = {
@@ -77,6 +90,7 @@
 		D892D3A91CA2C1B1006FB331 /* Lab3 */ = {
 			isa = PBXGroup;
 			children = (
+				B8B9E46A1CA2CC9300E9BBAB /* Views */,
 				B8B9E4671CA2C3C100E9BBAB /* ViewControllers */,
 				D892D3AA1CA2C1B2006FB331 /* AppDelegate.swift */,
 				D892D3AE1CA2C1B2006FB331 /* Main.storyboard */,
@@ -219,6 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B9E4661CA2C3BD00E9BBAB /* LoginViewController.swift in Sources */,
+				B8B9E46C1CA2CCA300E9BBAB /* MessageCell.swift in Sources */,
+				B8B9E4691CA2C97D00E9BBAB /* ChatViewController.swift in Sources */,
 				D892D3AB1CA2C1B2006FB331 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
